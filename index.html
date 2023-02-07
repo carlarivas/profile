@@ -1,910 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{carlarivas}</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Carla Rivas" />
+    <!--
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="header" id="header">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <meta name="description"
-            content="0xFolio is a free HTML template designed by Ali Raza. It is highly responsive and contains clean code. It uses sass and bootstrap.">
-        <meta name="keywords" content="0xFolio, Free HTML Template, Bootstrap Template, Free, CSS Template">
-        <meta name="author" content="Ali Raza">
-        <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="./img/favicon/site.webmanifest">
-        <link rel="stylesheet" href="./css/main.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-        <title>0xFolio - Free portfolio template for developers</title>
-    </head>
-
-    <body>
-
-        <header class="header" id="header">
-            <!-- Top fixed navbar -->
-            <nav class="navbar navbar-top navbar-expand-md navbar-dark header__navbar">
-                <div class="container-lg">
-                    <a class="navbar-brand" href="#">John Doe</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarTopCollapsible" aria-controls="navbarTopCollapsible" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTopCollapsible">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#work">Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Resume</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-
-            <!-- Centered content -->
-            <div class="header__content">
-                <div class="header__img-box">
-                    <img src="./img/developer.jpg" alt="John Doe" class="header__img">
-                </div>
-                <h1 class="heading-primary">
-                    <span class="heading-primary--main">John Doe</span>
-                    <span class="heading-primary--sub">Full Stack Developer</span>
-                </h1>
-                <div class="header__cta-box">
-                    <a href="#about" class="btn btn--full">About</a>
-                    <a href="#work" class="btn btn--ghost">Work</a>
-                </div>
-            </div>
-
-
-            <!-- Absolute positioned social icons -->
-            <div class="header__social-icons social-icons">
-                <a href="#" class="social-icons__link">
-                    <svg class="icon social-icons__icon">
-                        <use xlink:href="./img/SVG/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                </a>
-                <a href="#" class="social-icons__link">
-                    <svg class="icon social-icons__icon">
-                        <use xlink:href="./img/SVG/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                </a>
-                <a href="#" class="social-icons__link">
-                    <svg class="icon social-icons__icon">
-                        <use xlink:href="./img/SVG/symbol-defs.svg#icon-instagram"></use>
-                    </svg>
-                </a>
-                <a href="#" class="social-icons__link">
-                    <svg class="icon social-icons__icon">
-                        <use xlink:href="./img/SVG/symbol-defs.svg#icon-whatsapp"></use>
-                    </svg>
-                </a>
-                <a href="#" class="social-icons__link">
-                    <svg class="icon social-icons__icon">
-                        <use xlink:href="./img/SVG/symbol-defs.svg#icon-discord"></use>
-                    </svg>
-                </a>
-                <a href="#" class="social-icons__link">
-                    <svg class="icon social-icons__icon">
-                        <use xlink:href="./img/SVG/symbol-defs.svg#icon-linkedin"></use>
-                    </svg>
-                </a>
-                <a href="#" class="social-icons__link">
-                    <svg class="icon social-icons__icon">
-                        <use xlink:href="./img/SVG/symbol-defs.svg#icon-medium"></use>
-                    </svg>
-                </a>
-
-            </div>
-
-        </header>
-
-        <section class="about" id="about">
+        <nav class="fixed-top navbar navbar-expand-lg py-3">
             <div class="container">
-                <h2 class="heading-secondary">About me</h2>
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-8">
-                        <div class="about__content">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quidem eligendi harum,
-                                laboriosam in corporis ea ex temporibus reiciendis consequuntur, non totam nihil
-                                asperiores quia porro beatae aliquid quam sunt.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae natus repellat vitae
-                                facilis quae veniam dolor soluta, harum dolore quasi, pariatur sunt odio, blanditiis
-                                ipsa? Sunt consequatur quod voluptatem sit amet consectetur adipisicing elit. Aliquam
-                                molestiae, ipsam perspiciatis perferendis fugiat, dolores corporis sint illum laboriosam
-                                nam asperiores voluptatibus et natus enim officia atque? Sunt, sit itaque?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, perferendis commodi
-                                aliquam blanditiis dicta porro assumenda, similique sunt eaque aut praesentium at vitae
-                                totam repellendus! Deserunt ratione sit quidem nulla.Quaerat, alias aspernatur delectus
-                                aliquid sed cupiditate laboriosam vel officia illum veritatis fugit! Veniam adipisci,
-                                nostrum eligendi est distinctio vero atque nulla hic quae non voluptatibus, laboriosam
-                                nam esse qui.</p>
-                        </div>
-                        <div class="about__skills my-4">
-                            <h3 class="heading-tertiary">Technologies I know:</h3>
-                            <div class="about__skills-icons mt-2">
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-html5"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-css3"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-javascript"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-php"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-laravel"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-angular"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-jquery"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-mysql"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-bootstrap"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-sass"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-git"></use>
-                                </svg>
-                                <svg class="icon about__skills-icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-linux"></use>
-                                </svg>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div class="about__cta-box text-center">
-                    <a href="#" class="btn btn--ghost">
-                        <svg class="icon btn__icon-left">
-                            <use xlink:href="./img/SVG/symbol-defs.svg#icon-file-pdf"></use>
-                        </svg>
-                        Resume
-                    </a>
-                    <a href="#" class="btn btn--full">Contact</a>
-                </div>
+                <a class="navbar-brand text-white" href="#">{carlarivas}</a>
+              <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">                
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white active" aria-current="page" href="#header">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">ABOUT</a>
+                  </li>
+                 <!--! <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">WORK</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">CONTACT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#about">RESUME</a>
+                  </li> -->
+                </ul>                
+              </div>
             </div>
-        </section>
+          </nav>
+        
 
-        <section class="work" id="work">
 
-            <div class="container">
-                <h2 class="heading-secondary">Things I've made</h2>
-
-                <ul class="nav nav-tabs justify-content-center mt-5 mb-4" id="workTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="projects-tab" data-toggle="tab" href="#projects" role="tab"
-                            aria-controls="projects" aria-selected="true">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="snippets-tab" data-toggle="tab" href="#snippets" role="tab"
-                            aria-controls="snippets" aria-selected="false">Snippets</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Technology</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">HTML</a>
-                            <a class="dropdown-item" href="#">CSS</a>
-                            <a class="dropdown-item" href="#">PHP</a>
-                            <a class="dropdown-item" href="#">Laravel</a>
-                        </div>
-                    </li>
-
-                </ul>
-
-                <div class="tab-content">
-
-                    <div class="work__content work__content--projects tab-pane fade show active" id="projects"
-                        role="tabpanel" aria-labelledby="projects-tab">
-                        <div class="row justify-content-center">
-                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                                <div class="project">
-                                    <div class="project__img-box">
-                                        <img src="./img/project-1.jpg" alt="Project 1" class="project__img img-fluid">
-                                    </div>
-
-                                    <div class="project__content-box">
-                                        <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
-                                            tenetur
-                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                            minus
-                                            aspernatur
-                                            quaerat porro amet!</p>
-                                        <div class="project__cta-box text-center">
-                                            <a href="#" class="btn btn--ghost">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                                </svg>
-                                                Demo</a>
-                                            <a href="#" class="btn btn--full">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                                </svg>
-                                                Source</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                                <div class="project">
-                                    <div class="project__img-box">
-                                        <img src="./img/project-2.jpg" alt="Project 2" class="project__img img-fluid">
-                                    </div>
-                                    <div class="project__content-box">
-                                        <h3 class="heading-tertiary">Lamet sicing elit Deleniti verit</h3>
-                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
-                                            tenetur
-                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                            minus
-                                            aspernatur
-                                            quaerat porro amet!</p>
-                                        <div class="project__cta-box text-center">
-                                            <a href="#" class="btn btn--ghost">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                                </svg>
-                                                Demo</a>
-                                            <a href="#" class="btn btn--full">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                                </svg>
-                                                Source</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                                <div class="project">
-                                    <div class="project__img-box">
-                                        <img src="./img/project-3.jpg" alt="Project 3" class="project__img img-fluid">
-                                    </div>
-                                    <div class="project__content-box">
-                                        <h3 class="heading-tertiary">Sequi aspernatur vel Necessi</h3>
-                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
-                                            tenetur
-                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                            minus
-                                            aspernatur
-                                            quaerat porro amet!</p>
-                                        <div class="project__cta-box text-center">
-                                            <a href="#" class="btn btn--ghost">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                                </svg>
-                                                Demo</a>
-                                            <a href="#" class="btn btn--full">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                                </svg>
-                                                Source</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                                <div class="project">
-                                    <div class="project__img-box">
-                                        <img src="./img/project-4.jpg" alt="Project 4" class="project__img img-fluid">
-                                    </div>
-                                    <div class="project__content-box">
-                                        <h3 class="heading-tertiary">Lorem rerum enim quia </h3>
-                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
-                                            tenetur
-                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                            minus
-                                            aspernatur
-                                            quaerat porro amet!</p>
-                                        <div class="project__cta-box text-center">
-                                            <a href="#" class="btn btn--ghost">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                                </svg>
-                                                Demo</a>
-                                            <a href="#" class="btn btn--full">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                                </svg>
-                                                Source</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                                <div class="project">
-                                    <div class="project__img-box">
-                                        <img src="./img/project-5.jpg" alt="Project 5" class="project__img img-fluid">
-                                    </div>
-                                    <div class="project__content-box">
-                                        <h3 class="heading-tertiary">magnam dolores aliquid sed.</h3>
-                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
-                                            tenetur
-                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                            minus
-                                            aspernatur
-                                            quaerat porro amet!</p>
-                                        <div class="project__cta-box text-center">
-                                            <a href="#" class="btn btn--ghost">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                                </svg>
-                                                Demo</a>
-                                            <a href="#" class="btn btn--full">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                                </svg>
-                                                Source</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="project-box col-sm-12 col-md-6 col-lg-4 mb-5">
-                                <div class="project">
-                                    <div class="project__img-box">
-                                        <img src="./img/project-6.jpg" alt="Project 6" class="project__img img-fluid">
-                                    </div>
-                                    <div class="project__content-box">
-                                        <h3 class="heading-tertiary">Eveniet sed harum sequi</h3>
-                                        <p class="project__details"> Architecto enim sunt amet doloremque ratione
-                                            tenetur
-                                            cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                            minus
-                                            aspernatur
-                                            quaerat porro amet!</p>
-                                        <div class="project__cta-box text-center">
-                                            <a href="#" class="btn btn--ghost">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-earth"></use>
-                                                </svg>
-                                                Demo</a>
-                                            <a href="#" class="btn btn--full">
-                                                <svg class="icon btn__icon-left icon-earth">
-                                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                                </svg>
-                                                Source</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-12 mb-2 mt-n1 text-center"><a href="#" class="btn btn--full">Show all</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="work__content work__content--snippets tab-pane fade" id="snippets" role="tabpanel"
-                        aria-labelledby="snippets-tab">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-10 col-lg-8">
-                                <table class="table table-sm table-responsive-sm table-bordered table-striped my-5">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">Title</th>
-                                            <th scope="col">Technology</th>
-                                            <th scope="col">Updated</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td><a href="#">Lorem ipsum doloraing elit.</a></td>
-                                            <td>Laravel</td>
-                                            <td>05-12-2019</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td><a href="#">Sapiente autem cum doloribus eius</a></td>
-                                            <td>PHP</td>
-                                            <td>04-10-2018</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td><a href="#">Lonsectetur adipisicing ratione</a></td>
-                                            <td>HTML</td>
-                                            <td>02-08-2019</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">4</th>
-                                            <td><a href="#">Libero expedita esse debitis fuga</a></td>
-                                            <td>Angular</td>
-                                            <td>01-01-2018</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">5</th>
-                                            <td><a href="#">Lsoluta tenetur quibusdam commodi.</a></td>
-                                            <td>JavaScript</td>
-                                            <td>25-10-2017</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">6</th>
-                                            <td><a href="#">Vitae labore laboriosam illum explicabo</a></td>
-                                            <td>Laravel</td>
-                                            <td>05-10-2019</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">7</th>
-                                            <td><a href="#">Voluptatibus nostrum neque vel quas</a></td>
-                                            <td>React</td>
-                                            <td>02-11-2018</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td><a href="#">Impedit odio vitae itaque suscipit.</a></td>
-                                            <td>HTML</td>
-                                            <td>03-10-2019</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td><a href="#">Qui amet atque repellat.</a></td>
-                                            <td>Sass</td>
-                                            <td>09-05-2019</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td><a href="#">Itaque suscipit debitis perferendis.</a></td>
-                                            <td>PHP</td>
-                                            <td>01-08-2017</td>
-                                        </tr>
-
-                                    </tbody>
-                                </table>
-
-                                <nav aria-label="Work Code Snippets" class="my-4">
-                                    <ul class="pagination justify-content-center">
-                                        <li class="page-item disabled">
-                                            <a class="page-link" href="#" tabindex="-1">Previous</a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item active">
-                                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">Next</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+        <!-- Centered content -->
+        <div class="profile-card text-center">
+            <div class="header__img-box">
+                <img src="./img/developer.jpg" alt="John Doe" class="header__img">
             </div>
+            <h1 class="heading-primary">
+                <span class="heading-primary--main d-block">CARLA RIVAS</span>
+                <span class="heading-primary--sub">Full Stack Developer</span>
+            </h1>
+            <div class="header__cta-box">
 
-        </section>
+                <a href="#about" class="btn btn-light">Primary</a>
+                <a href="#work" class="btn btn-outline-light">Work</a>
+            </div>
+        </div>
 
-        <section class="counter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="counter__box">
-                            <div class="counter__icon-box">
-                                <svg class="icon counter__icon">
-                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-embed"></use>
-                                </svg>
-                            </div>
-                            <span class="counter__count">3456</span>
-                            <p class="counter__title">Lines of code</p>
-                        </div>
+
+        <!-- social icons -->
+        <div class="social-buttons social-icons">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+                    <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                  </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-medium" viewBox="0 0 16 16">
+                    <path d="M9.025 8c0 2.485-2.02 4.5-4.513 4.5A4.506 4.506 0 0 1 0 8c0-2.486 2.02-4.5 4.512-4.5A4.506 4.506 0 0 1 9.025 8zm4.95 0c0 2.34-1.01 4.236-2.256 4.236-1.246 0-2.256-1.897-2.256-4.236 0-2.34 1.01-4.236 2.256-4.236 1.246 0 2.256 1.897 2.256 4.236zM16 8c0 2.096-.355 3.795-.794 3.795-.438 0-.793-1.7-.793-3.795 0-2.096.355-3.795.794-3.795.438 0 .793 1.699.793 3.795z"/>
+                  </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg>
+            </a>
+        </div>
+    </header>
+
+    <section class="about py-5" id="about">
+        <div class="container">
+            <h2 class="text-center">ABOUT ME</h2>            
+            <div class="col-12">
+                    <div class="about__content">
+                        I am a full-stack developer and mobile app developer with a passion for creating seamless and intuitive web experiences. With more than 10 years of experience in developing and deploying scalable applications, I have a strong command of front-end technologies such as HTML, CSS, and JavaScript, as well as back-end technologies like Node.js and PHP.
+                        <br><br>Whether it's working with a team on a large-scale project or independently on a smaller task, I take pride in writing clean, efficient code and delivering top-quality results on time. My experience in both front-end and back-end development allows me to bring a unique perspective to projects and find creative solutions to complex problems.<br><br>Outside of work, I enjoy staying up to date on the latest technology trends and expanding my skill set through personal projects and online courses. I'm always looking for new challenges and opportunities to grow as a developer.
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="counter__box">
-                            <div class="counter__icon-box">
-                                <svg class="icon counter__icon">
-                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
-                                </svg>
-                            </div>
-                            <span class="counter__count">22</span>
-                            <p class="counter__title">Projects done</p>
+                    <!--<div class="about__skills my-4">
+                        <h3 class="heading-tertiary">Technologies I know:</h3>
+                        <div class="about__skills-icons mt-2">
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-html5"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-css3"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-javascript"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-php"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-laravel"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-angular"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-jquery"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-mysql"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-bootstrap"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-sass"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-git"></use>
+                            </svg>
+                            <svg class="icon about__skills-icon">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-linux"></use>
+                            </svg>
+
                         </div>
+                    </div>-->
+            </div>           
+        </div>
+    </section>
+
+
+
+    <section class="counter py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                            <svg class="icon counter__icon">
+                                <use xlink:href="img/SVG/symbol-defs.svg#icon-embed"></use>
+                            </svg>
+                        </div>
+                        <span class="counter__count">34560</span>
+                        <p class="counter__title">Lines of code</p>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="counter__box">
-                            <div class="counter__icon-box">
-                                <svg class="icon counter__icon">
-                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-edit"></use>
-                                </svg>
-                            </div>
-                            <span class="counter__count">43</span>
-                            <p class="counter__title">Articles written</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                            <svg class="icon counter__icon">
+                                <use xlink:href="img/SVG/symbol-defs.svg#icon-github"></use>
+                            </svg>
                         </div>
+                        <span class="counter__count">305</span>
+                        <p class="counter__title">Projects done</p>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3">
-                        <div class="counter__box">
-                            <div class="counter__icon-box">
-                                <svg class="icon counter__icon">
-                                    <use xlink:href="img/SVG/symbol-defs.svg#icon-sun"></use>
-                                </svg>
-                            </div>
-                            <span class="counter__count">18</span>
-                            <p class="counter__title">Years lived</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                            <svg class="icon counter__icon">
+                                <use xlink:href="img/SVG/symbol-defs.svg#icon-edit"></use>
+                            </svg>
                         </div>
+                        <span class="counter__count">8</span>
+                        <p class="counter__title">Articles written</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                            <svg class="icon counter__icon">
+                                <use xlink:href="img/SVG/symbol-defs.svg#icon-sun"></use>
+                            </svg>
+                        </div>
+                        <span class="counter__count">35</span>
+                        <p class="counter__title">Years lived</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-8">
-                        <h2 class="heading-secondary ">Contact me</h2>
-                        <form>
-                            <div class="form-group">
-                                <label for="Username">Username</label>
-                                <input required type="text" class="form-control" id="Username">
-                            </div>
-                            <div class="form-group">
-                                <label for="Email">Email</label>
-                                <input required type="email" class="form-control" id="Email">
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <input required type="text" class="form-control" id="subject">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="message">Your message</label>
-                                <textarea required type="text" class="form-control" id="message" rows="4"></textarea>
-                            </div>
+        </div>
+    </section>
 
 
-                            <button type="submit" class="mt-2 btn btn--full float-right">Send <svg
-                                    class="icon btn__icon-right">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-paper-plane"></use>
-                                </svg></button>
-                        </form>
-                    </div>
-                </div>
+    <footer class="footer bg-light py-3">
+        <div class="container">                       
+            <div class="col-12 text-center">
+                
             </div>
-        </section>
+        </div>
+    </footer>
 
-        <section class="blog-section">
-            <div class="container">
-
-                <h2 class="heading-secondary">Latest from blog</h2>
-
-                <div class="row justify-content-center">
-
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                        <div class="blog">
-                            <div class="blog__img-box">
-                                <img src="./img/blog-1.jpg" alt="Blog 1" class="blog__img img-fluid">
-                                <div class="blog__tags-box">
-                                    <a href="#" class="blog__tag">Life</a>
-                                    <a href="#" class="blog__tag">Philosophy</a>
-                                </div>
-                            </div>
-                            <div class="blog__content-box">
-                                <div class="blog__meta">
-                                    <a href="#" class="blog__author">
-                                        <svg class="icon blog__author-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-user"></use>
-                                        </svg>
-                                        Xavier James</a>
-                                    <a href="#" class="blog__date">
-                                        <svg class="icon blog__date-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-calendar"></use>
-                                        </svg>
-                                        14 Oct 2020</a>
-                                </div>
-                                <h3 class="heading-tertiary">Lmet consectetur adipisicing elit.</h3>
-                                <p class="blog__details"> Architecto enim sunt amet doloremque ratione
-                                    tenetur
-                                    cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                    minus
-                                    aspernatur
-                                    quaerat porro amet <span>...</span></p>
-                                <div class="blog__cta-box text-center">
-                                    <a href="#" class="btn btn--ghost blog__btn">Read more <svg
-                                            class="icon btn__icon-right">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-arrow_right_alt"></use>
-                                        </svg></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                        <div class="blog">
-                            <div class="blog__img-box">
-                                <img src="./img/blog-2.jpg" alt="Blog 2" class="blog__img img-fluid">
-                                <div class="blog__tags-box">
-                                    <a href="#" class="blog__tag">Programming</a>
-                                    <a href="#" class="blog__tag">HTML</a>
-                                    <a href="#" class="blog__tag">CSS</a>
-                                </div>
-                            </div>
-                            <div class="blog__content-box">
-                                <div class="blog__meta">
-                                    <a href="#" class="blog__author">
-                                        <svg class="icon blog__author-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-user"></use>
-                                        </svg>
-                                        Xavier James</a>
-                                    <a href="#" class="blog__date">
-                                        <svg class="icon blog__date-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-calendar"></use>
-                                        </svg>
-                                        20 Sep 2019</a>
-                                </div>
-                                <h3 class="heading-tertiary">Reprehenderit dolores delectus.</h3>
-                                <p class="blog__details"> Architecto enim sunt amet doloremque ratione
-                                    tenetur
-                                    cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                    minus
-                                    aspernatur
-                                    quaerat porro amet <span>...</span></p>
-                                <div class="blog__cta-box text-center">
-                                    <a href="#" class="btn btn--ghost blog__btn">Read more <svg
-                                            class="icon btn__icon-right">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-arrow_right_alt"></use>
-                                        </svg></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                        <div class="blog">
-                            <div class="blog__img-box">
-                                <img src="./img/blog-3.jpg" alt="Blog 3" class="blog__img img-fluid">
-                                <div class="blog__tags-box">
-                                    <a href="#" class="blog__tag">PHP</a>
-                                </div>
-                            </div>
-                            <div class="blog__content-box">
-                                <div class="blog__meta">
-                                    <a href="#" class="blog__author">
-                                        <svg class="icon blog__author-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-user"></use>
-                                        </svg>
-                                        Xavier James</a>
-                                    <a href="#" class="blog__date">
-                                        <svg class="icon blog__date-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-calendar"></use>
-                                        </svg>
-                                        22 Jan 2019</a>
-                                </div>
-                                <h3 class="heading-tertiary">Culpa voluptate soluta maxim</h3>
-                                <p class="blog__details"> Architecto enim sunt amet doloremque ratione
-                                    tenetur
-                                    cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                    minus
-                                    aspernatur
-                                    quaerat porro amet <span>...</span></p>
-                                <div class="blog__cta-box text-center">
-                                    <a href="#" class="btn btn--ghost blog__btn">Read more <svg
-                                            class="icon btn__icon-right">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-arrow_right_alt"></use>
-                                        </svg></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                        <div class="blog">
-                            <div class="blog__img-box">
-                                <img src="./img/blog-4.jpg" alt="Blog 4" class="blog__img img-fluid">
-                                <div class="blog__tags-box">
-                                    <a href="#" class="blog__tag">Frontend</a>
-                                    <a href="#" class="blog__tag">JavaScript</a>
-                                </div>
-                            </div>
-                            <div class="blog__content-box">
-                                <div class="blog__meta">
-                                    <a href="#" class="blog__author">
-                                        <svg class="icon blog__author-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-user"></use>
-                                        </svg>
-                                        Xavier James</a>
-                                    <a href="#" class="blog__date">
-                                        <svg class="icon blog__date-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-calendar"></use>
-                                        </svg>
-                                        22 Jan 2019</a>
-                                </div>
-                                <h3 class="heading-tertiary">Laspernatur officiis ratione </h3>
-                                <p class="blog__details"> Architecto enim sunt amet doloremque ratione
-                                    tenetur
-                                    cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                    minus
-                                    aspernatur
-                                    quaerat porro amet <span>...</span></p>
-                                <div class="blog__cta-box text-center">
-                                    <a href="#" class="btn btn--ghost blog__btn">Read more <svg
-                                            class="icon btn__icon-right">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-arrow_right_alt"></use>
-                                        </svg></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                        <div class="blog">
-                            <div class="blog__img-box">
-                                <img src="./img/blog-5.jpg" alt="Blog 5" class="blog__img img-fluid">
-                                <div class="blog__tags-box">
-                                    <a href="#" class="blog__tag">life</a>
-                                    <a href="#" class="blog__tag">Relationships</a>
-                                </div>
-                            </div>
-                            <div class="blog__content-box">
-                                <div class="blog__meta">
-                                    <a href="#" class="blog__author">
-                                        <svg class="icon blog__author-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-user"></use>
-                                        </svg>
-                                        Xavier James</a>
-                                    <a href="#" class="blog__date">
-                                        <svg class="icon blog__date-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-calendar"></use>
-                                        </svg>
-                                        22 Jan 2019</a>
-                                </div>
-                                <h3 class="heading-tertiary">Quasi earum Molestiae officiis</h3>
-                                <p class="blog__details"> Architecto enim sunt amet doloremque ratione
-                                    tenetur
-                                    cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                    minus
-                                    aspernatur
-                                    quaerat porro amet <span>...</span></p>
-                                <div class="blog__cta-box text-center">
-                                    <a href="#" class="btn btn--ghost blog__btn">Read more <svg
-                                            class="icon btn__icon-right">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-arrow_right_alt"></use>
-                                        </svg></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-                        <div class="blog">
-                            <div class="blog__img-box">
-                                <img src="./img/blog-6.jpg" alt="Blog 6" class="blog__img img-fluid">
-                                <div class="blog__tags-box">
-                                    <a href="#" class="blog__tag">Life</a>
-                                </div>
-                            </div>
-                            <div class="blog__content-box">
-                                <div class="blog__meta">
-                                    <a href="#" class="blog__author">
-                                        <svg class="icon blog__author-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-user"></use>
-                                        </svg>
-                                        Xavier James</a>
-                                    <a href="#" class="blog__date">
-                                        <svg class="icon blog__date-icon">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-calendar"></use>
-                                        </svg>
-                                        21 Oct 2017</a>
-                                </div>
-                                <h3 class="heading-tertiary">Reiciendis blanditiis maxime</h3>
-                                <p class="blog__details"> Architecto enim sunt amet doloremque ratione
-                                    tenetur
-                                    cum cupiditate? Iure corrupti, expedita sed laboriosam qui ipsum ex
-                                    minus
-                                    aspernatur
-                                    quaerat porro amet <span>...</span></p>
-                                <div class="blog__cta-box text-center">
-                                    <a href="#" class="btn btn--ghost blog__btn">Read more <svg
-                                            class="icon btn__icon-right">
-                                            <use xlink:href="img/SVG/symbol-defs.svg#icon-arrow_right_alt"></use>
-                                        </svg></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 mb-2 mt-n1 text-center"><a href="#" class="btn btn--full">Show all</a></div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="container">
-                <div class="row justify-content-center ">
-                    <div class="col-12  py-5 text-center mb-2">
-                        <h3 class="mb-4 heading-tertiary footer__social-heading">Stay connected</h3>
-                        <!-- Absolute positioned social icons -->
-                        <div class=" social-icons social-icons--lg">
-                            <a href="#" class="social-icons__link">
-                                <svg class="icon social-icons__icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-icons__link">
-                                <svg class="icon social-icons__icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-icons__link">
-                                <svg class="icon social-icons__icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-icons__link">
-                                <svg class="icon social-icons__icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-whatsapp"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-icons__link">
-                                <svg class="icon social-icons__icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-discord"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-icons__link">
-                                <svg class="icon social-icons__icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                            <a href="#" class="social-icons__link">
-                                <svg class="icon social-icons__icon">
-                                    <use xlink:href="./img/SVG/symbol-defs.svg#icon-medium"></use>
-                                </svg>
-                            </a>
-
-                        </div>
-                    </div>
-                    <div class="col-12 text-center">
-                        <p class="footer__credits font-1rem">Template <a
-                                href="https://github.com/0xaliraza/0xfolio">0xFolio</a>,
-                            designed with ❤️ by <a href="https://0xali.com">Ali Raza</a>.</p>
-                    </div>
-                    <div class="col-12 mt-auto">
-                        <nav class="nav footer__nav justify-content-around">
-                            <a class="nav-link active" href="#">Home</a>
-                            <a class="nav-link" href="#">Projects</a>
-                            <a class="nav-link" href="#">Blog</a>
-                            <a class="nav-link" href="#">Contact</a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-
-        </footer>
-
-
-
-        <script src="./js/vendors/jquery/jquery.min.js"></script>
-        <script src="./js/vendors/waypoints/jquery.waypoints.min.js"></script>
-        <script src="./js/vendors/popper/popper.min.js"></script>
-        <script src="./js/vendors/bootstrap/bootstrap.min.js"></script>
-        <script src="./js/script.js"></script>
-    </body>
-
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/vendors/waypoints/jquery.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
