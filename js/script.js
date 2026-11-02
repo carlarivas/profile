@@ -32,7 +32,7 @@ new Waypoint({
 });
 
 $(document).ready(function(){	
-	$(window).bind('scroll', function() {
+	$(window).on('scroll', function() {
 	var distance = 25;
 		  if ($(window).scrollTop() > $(window).height()-75) {
 			  $('nav').fadeOut(500);
