@@ -1,17 +1,42 @@
+/* Years of experience: updates automatically every year */
+$('[data-years-since]').each(function () {
+	$(this).text(new Date().getFullYear() - Number($(this).data('years-since')));
+});
+
+/* Lines of code: base value plus a fixed amount per day since base date */
+$('[data-base][data-per-day]').each(function () {
+	var parts = String($(this).data('base-date')).split('-');
+	var start = new Date(parts[0], parts[1] - 1, parts[2]);
+	var days = Math.max(0, Math.floor((new Date() - start) / 86400000));
+	var value = Number($(this).data('base')) + days * Number($(this).data('per-day'));
+	$(this).attr('data-count', value).text(formatCount(value, $(this).data('format')));
+});
+
+/* 99541 -> "99.5k" when format is "k" */
+function formatCount(n, format) {
+	if (format === 'k' && n >= 1000) {
+		return (Math.floor(n / 100) / 10).toFixed(1).replace(/\.0$/, '') + 'k';
+	}
+	return String(Math.ceil(n));
+}
+
 /* Count to a specific number */
 function count(els) {
 	els.each(function () {
-		$(this)
+		var $el = $(this);
+		var target = Number($el.attr('data-count') || $el.text());
+		var format = $el.data('format');
+		$el
 			.prop('Counter', 0)
 			.animate(
 				{
-					Counter: $(this).text(),
+					Counter: target,
 				},
 				{
 					duration: 3000,
 					easing: 'swing',
 					step: function (now) {
-						$(this).text(Math.ceil(now));
+						$el.text(formatCount(now, format));
 					},
 				}
 			);
