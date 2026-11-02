@@ -1,3 +1,6 @@
+/* Copyright year: always the current year */
+$('[data-current-year]').text(new Date().getFullYear());
+
 /* Years of experience: updates automatically every year */
 $('[data-years-since]').each(function () {
 	$(this).text(new Date().getFullYear() - Number($(this).data('years-since')));
